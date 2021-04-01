@@ -4,7 +4,7 @@
             <h2 id="title">Todo List</h2>
             <add-item-form />
         </div>
-        <list-view />
+        <list-view :items="items" />
     </div>
 </template>
 

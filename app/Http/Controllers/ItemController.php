@@ -83,6 +83,8 @@ class ItemController extends Controller
 
             return $item;
         }
+
+        return 'Item not found';
     }
 
     /**
